@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Survey Form </h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="Name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="what's your name?"><br><br>
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="text" id="email" placeholder="what's your email id?"><br><br>
+        </div>
+
+        <div class="form-control">
+            <label for="Age" id="label-Age">Age</label>
+            <input type="text" id="Age" placeholder="what's your age?"><br><br>
+        </div>
+
+        <div class="form-control">
+            <label for="Personality_Role" id="Personality_Role">Choose Your Role:</label>
+            <select name="Personality_Role" id="Personality_Role">
+                <option value="Student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Professional">Professional</option>
+                <option value="Others">Others</option>
+            </select><br>
+        </div>
+
+        <div class="form-control">
+            <br><label> Would you recommed your friends & relatives to fill up this survey form? </label>
+            <label for="recommed-1">
+                <input type="radio" name="yes" id="">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" name="no" id="">No</input><br><br>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>Programming Languages & Frame Works Known:</label>
+            <div class="form-control">
+
+                <label for="inp_1">
+                    <input type="checkbox" name="c_language" id="">C</input>
+                </label>
+
+                <label for="inp_2">
+                    <input type="checkbox" name="C++" id="">C++</input>
+                </label>
+
+                <label for="inp_3">
+                    <input type="checkbox" name="JS" id="">JS</input>
+                </label>
+
+                <label for="inp_4">
+                    <input type="checkbox" name="HTML" id="">HTML</input>
+                </label>
+
+                <label for="inp_5">
+                    <input type="checkbox" name="CSS" id="">CSS</input>
+                </label>
+
+                <label for="inp_6">
+                    <input type="checkbox" name="Python" id="">Python</input>
+                </label>
+
+                <label for="inp_7">
+                    <input type="checkbox" name="Java" id="">Java</input>
+                </label>
+
+                <label for="inp_8">
+                    <input type="checkbox" name="G" id="">G</input><br><br>
+                </label>
+
+
+            </div>
+
+            <div class="form-control">
+                <label>Your Feedback On this Survey Page</label>
+                <textarea id="Feedback_Box" name="Feedback_Box" rows="4" columns="10"></textarea><br><br>
+                <button type="submit" value="Submit">Submit</button>
+            </div>
+    </form>
+
+</body>
+
+</html>
